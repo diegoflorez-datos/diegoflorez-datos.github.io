@@ -46,7 +46,7 @@ function sel(el){var r=document.createRange();r.selectNodeContents(el);var s=get
         var y=base+Math.sin(x/170+i*0.55+t)*14+Math.sin(x/61-i*0.3+t*1.7)*5+Math.cos(x/340+i)*22;
         x===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
       }
-      ctx.strokeStyle= i%5===0 ? 'rgba(255,138,101,.55)' : 'rgba(94,219,208,.18)';
+      ctx.strokeStyle= i%5===0 ? 'rgba(242,193,78,.5)' : 'rgba(94,219,208,.18)';
       ctx.lineWidth= i%5===0 ? 1.4 : 1;
       ctx.stroke();
     }
